@@ -1,0 +1,51 @@
+
+#GET ALL THE USERS
+GET http://localhost:5000/users
+### 
+#GET A SINGLE USER
+GET http://localhost:5000/users/2
+###
+#REGISTER A USER
+POST http://localhost:5000/register
+content-type:application/json
+
+{
+  "email":"miso@zaio.com",
+  "password":"1password"
+}
+
+###
+#SIGNING IN 
+POST http://localhost:5000/login HTTP/1.1
+content-type:application/json
+
+{
+  "email":"zozi@gmail.com",
+  "password":"12435"
+}
+
+###
+
+#GET ALL THE BOOKINGS
+GET http://localhost:5000/bookings
+###
+#GET A SINGLE BOOKING
+GET http://localhost:5000/bookings/2
+###
+#GET ALL LISTINGS
+GET http://localhost:5000/listings
+###
+#GET A SINGLE LISTING
+GET http://localhost:5000/listings/1
+
+
+{/*POST http://localhost:5000/posts 
+content-type:application/json
+{
+
+  "title":"airbnb clone",
+  "author":"ndumiso"
+}
+*/}
+
+

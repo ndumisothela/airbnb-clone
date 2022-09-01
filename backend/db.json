@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ndumiso Thela",
+      "email": "ndumiso@zaio.io",
+      "phone": "072-558-4482"
+    },
+    {
+      "id": 2,
+      "name": "Sydney Motha",
+      "email": "smotha@zaio.io",
+      "phone": "072-568-4482"
+    },
+    {
+      "email": "miso@zaio.io",
+      "password": "$2a$10$LNY41LmC2hxy1oOj38LTKe/p3ZRX/j.Y9UiTDL/3ymJMHlSLSW0hK",
+      "id": 3
+    },
+    {
+      "email": "miso@zaio.com",
+      "password": "$2a$10$mHWWVYcolmaxOL.ajBxV3.Eyedc3ezfEkvJN8LlUNe6PsogRVkW6u",
+      "id": 4
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "startDate": "25-08-2022",
+      "endDate": "30-08-2022",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "startDate": "25-08-2022",
+      "endDate": "29-08-2022",
+      "userId": 2
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": 2000,
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Mnkuku Street",
+      "city": "Ikeja",
+      "street": "Azori",
+      "price": 2500,
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 3
+    }
+  ]
+}
