@@ -1,14 +1,12 @@
 import "./App.css";
 import Header from "./Components/Header/Header";
-/*import Home from "./Components/Home/Home";*/
-import Banner from "./Components/Banner/Banner";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
     <div>
       <Header />
-      {/*<Home />*/}
-      <Banner />
+      <Home />
     </div>
   );
 }
