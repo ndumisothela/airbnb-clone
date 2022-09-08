@@ -2,18 +2,19 @@
   margin: 0;
   height: 100vh;
   position: relative;
-  background-image: url("https://images.pexels.com/photos/7587827/pexels-photo-7587827.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-image: url("https://images.pexels.com/photos/2988860/pexels-photo-2988860.jpeg?auto=compress&cs=tinysrgb&w=600");
   background-size: cover;
   overflow-x: hidden;
 }
 .banner_info {
   background-color: black;
   color: white;
-  padding-top: 25vh;
+  padding-top: 20vh;
   padding-right: 50px;
   padding-bottom: 40px;
   padding-left: 50px;
   width: 200px;
+  position: absolute;
 }
 .banner_info > button {
   background-color: #ff7779;
