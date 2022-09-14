@@ -1,5 +1,5 @@
 import "./App.css";
-import { RouterBrowser as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";

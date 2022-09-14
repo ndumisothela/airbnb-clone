@@ -4,6 +4,9 @@
   border-bottom: 1px solid gray;
   position: sticky;
   z-index: 100;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-direction: column;
 }
 .active {
   display: flex;
