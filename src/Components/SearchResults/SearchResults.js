@@ -1,6 +1,6 @@
 import React from "react";
 import "./SearchResults.css";
-import FavoriteBorderIcon from "@mui/material/FavoriteBorder";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
 const SearchResults = ({
   img,

@@ -6,7 +6,6 @@
   z-index: 100;
   align-items: flex-end;
   align-content: flex-end;
-  flex-direction: column;
 }
 .active {
   display: flex;
