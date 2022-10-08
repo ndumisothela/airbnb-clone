@@ -40,6 +40,9 @@
   "listings": [
     {
       "id": 1,
+      "img":"https://images.pexels.com/photos/13513458/pexels-photo-13513458.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "title":"Online experience",
+      "description":"Amazing activities we can do together",
       "bath_num": 3,
       "bed_num": 4,
       "zip": 23456,
@@ -54,6 +57,9 @@
     {
       "id": 2,
       "bath_num": 3,
+      "img":"https://images.pexels.com/photos/672916/pexels-photo-672916.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "title":"Penthouse in Soweto",
+      "description":"Enjoy amazing stay in the heart of South Africa",
       "bed_num": 4,
       "zip": 23456,
       "address": "Mnkuku Street",
