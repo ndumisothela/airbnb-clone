@@ -14,6 +14,7 @@ const Home = () => {
   useEffect(() => {
     dispatch(listListing());
   }, [dispatch]);
+
   return (
     <div>
       <div className="home">
@@ -35,6 +36,7 @@ const Home = () => {
           </div>
         )}
         {/*
+         <div className="home_section">
         <Cards
           src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600"
           title="Penthouse in Vosloorus"

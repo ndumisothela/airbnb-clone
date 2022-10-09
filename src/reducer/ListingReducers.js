@@ -5,7 +5,7 @@ import {
 } from "../Types/ListingTypes";
 
 export const listingListReducers = (state = { listings: [] }, action, type) => {
-  switch ((action, type)) {
+  switch (action.type) {
     case LISTING_LIST_REQUEST:
       return { loading: true, listings: [] };
     case LISTING_LIST_SUCCESS:
