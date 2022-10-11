@@ -5,8 +5,12 @@ import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import MenuIcon from "@mui/icons-material/Menu";
 import LanguageIcon from "@mui/icons-material/Language";
+import { openModal } from "../../Action/ModalAction";
 
 const Header = () => {
+  const openModalHandle = () => {
+    console.log("log in clicked");
+  };
   return (
     <div className="header_container active">
       <img className="airbnb_logo" src={arb} alt="airbnb_logo" />
@@ -26,6 +30,7 @@ const Header = () => {
         </div>
         <div className="profile_icons active">
           <MenuIcon />
+          <span onClick={openModalHandle}>Login</span>
           <AccountCircleIcon className="account" />
         </div>
       </div>
