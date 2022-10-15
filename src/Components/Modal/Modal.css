@@ -1,4 +1,4 @@
-site-modal {
+.site-modal {
   position: fixed; /*stay in place*/
   z-index: 10000; /*sit on top*/
   left: 0;
