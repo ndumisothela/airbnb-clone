@@ -1,15 +1,18 @@
 import React from "react";
 import "./Header.css";
+import { useDispatch } from "react-redux";
 import arb from "./../../Components/Assets/arb.png";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import MenuIcon from "@mui/icons-material/Menu";
 import LanguageIcon from "@mui/icons-material/Language";
 import { openModal } from "../../Action/ModalAction";
+import Login from "../Login/Login";
 
 const Header = () => {
+  const dispatch = useDispatch();
   const openModalHandle = () => {
-    console.log("log in clicked");
+    dispatch(openModal("open", <Login />));
   };
   return (
     <div className="header_container active">
