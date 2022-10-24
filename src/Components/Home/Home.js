@@ -55,8 +55,8 @@ const Home = () => {
           description="Enjoy the amazing stay inSoweto with this stunning penthouse "
           price="R500/night"
         />
-      </div>
-      <div className="home_section">
+        </div>
+        <div className="home_section">
         <Cards
           src="https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=600"
           title="Penthouse in Soweto"
