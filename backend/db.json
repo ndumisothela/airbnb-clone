@@ -21,6 +21,11 @@
       "email": "miso@zaio.com",
       "password": "$2a$10$mHWWVYcolmaxOL.ajBxV3.Eyedc3ezfEkvJN8LlUNe6PsogRVkW6u",
       "id": 4
+    },
+    {
+      "email": "thela@mail.com",
+      "password": "$2a$10$hgS0hRwYfuXb2hfmAccj9expV8.c1OqJWiE3RHQ9oH5wHgAaAMiam",
+      "id": 5
     }
   ],
   "bookings": [
@@ -40,9 +45,9 @@
   "listings": [
     {
       "id": 1,
-      "img":"https://images.pexels.com/photos/1625355/pexels-photo-1625355.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "title":"Online experience",
-      "description":"Amazing activities we can do together",
+      "img": "https://images.pexels.com/photos/1625355/pexels-photo-1625355.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "title": "Online experience",
+      "description": "Amazing activities we can do together",
       "bath_num": 3,
       "bed_num": 4,
       "zip": 23456,
@@ -57,9 +62,9 @@
     {
       "id": 2,
       "bath_num": 3,
-      "img":"https://images.pexels.com/photos/672916/pexels-photo-672916.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "title":"Penthouse in Soweto",
-      "description":"Enjoy amazing stay in the heart of South Africa",
+      "img": "https://images.pexels.com/photos/672916/pexels-photo-672916.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "title": "Penthouse in Soweto",
+      "description": "Enjoy amazing stay in the heart of South Africa",
       "bed_num": 4,
       "zip": 23456,
       "address": "Mnkuku Street",

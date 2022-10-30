@@ -1,16 +1,21 @@
 import React from "react";
 import "./Header.css";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import arb from "./../../Components/Assets/arb.png";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import MenuIcon from "@mui/icons-material/Menu";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import LanguageIcon from "@mui/icons-material/Language";
 import { openModal } from "../../Action/ModalAction";
 import Login from "../Login/Login";
 
 const Header = () => {
   const dispatch = useDispatch();
+
+  const userLogin = useSelector((state) => state.userLogin);
+  const { userInfo } = userLogin;
+
   const openModalHandle = () => {
     dispatch(openModal("open", <Login />));
   };
@@ -31,9 +36,27 @@ const Header = () => {
           </button>
           <LanguageIcon />
         </div>
+        <div className="dropdown">
+          <ExpandMoreIcon className="dropbtn" />
+          <div className="dropdown_content">
+            {userInfo ? (
+              <>
+                <span>Acount</span>
+                <span>Log Out</span>
+              </>
+            ) : (
+              <>
+                <span>sign up</span>
+                <span onClick={openModalHandle}>Login</span>
+              </>
+            )}
+            <span>Help</span>
+          </div>
+        </div>
+
         <div className="profile_icons active">
           <MenuIcon />
-          <span onClick={openModalHandle}>Login</span>
+
           <AccountCircleIcon className="account" />
         </div>
       </div>
